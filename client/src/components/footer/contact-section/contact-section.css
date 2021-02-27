@@ -1,0 +1,15 @@
+.contact-section {
+  width: 100%;
+}
+
+@media screen and (min-width: 799px) {
+  .contact-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+}
